@@ -1,0 +1,24 @@
+$mainColor: #eee;
+$mainTextSize: 16px;
+
+body {
+    // write background color with values from $mainColor
+    background: $mainColor;
+}
+.container {
+   // write font size with values from $mainTextSize
+  font-size: $mainTextSize; 
+}
+
+.content {
+   // write background color with values from $mainColor and $mainTextSize with font size
+   background-color: $mainColor;
+   font-size: $mainTextSize;
+}
+
+#header-box {
+    // write background color with values from $mainColor
+    background-color: $mainColor;
+    padding: 10px;
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <form name="firstForm">
+    <input type="radio" name="fruits" value="MANGO" />MANGO
+    <input type="radio" name="fruits" value="BANANA" checked />BANANA
+    <input type="radio" name="fruits" value="APPLE" />APPLE
+  </form>
+
+  <form name="secondForm">
+    <input name="login" type="text" value="login" />
+    <br />
+    <input name="password" type="password" value="abc" />
+  </form>
+
+  <button id="okButton" type="button">OK</button>
+
+  <p id="output"></p>
+  <script>
+    function apply() {
+      // On click on OK :
+      // - Display the login, the password, the selected fruit
+      let getInputFirst = firstForm.fruits.value;
+      // WARNING : this time NO id :
+      // You can acess to the form inputs using :   <FormName>.<inputName>
+      let getInputLogin = secondForm.login.value
+      let getInputPass = secondForm.password.value
+      document.getElementById("output").textContent=getInputLogin+": "+getInputPass+" | Fruit:"+getInputFirst;
+    }
+
+    document.getElementById("okButton").addEventListener("click", apply);
+  </script>
+</body>
+
+</html>

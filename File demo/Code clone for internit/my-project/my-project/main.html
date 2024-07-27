@@ -1,0 +1,33 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="https://unpkg.com/qr-code-styling/lib/qr-code-styling.js"></script>
+  
+  <title>QR Generator</title>
+
+</head>
+
+<body>
+  <div id="canvas"></div>
+  <script type="text/javascript">
+  
+    const qrCode = new QRCodeStyling({
+      width: 300,
+      height: 300,
+      data: "https://github.com/F2BEAR",
+      image:    "./img.png",
+      dotsOptions: {
+        color: "#1fec71",
+        type: "square"
+      },
+      backgroundOptions: {
+        color: "#FFFFFF",
+      }
+    });
+    qrCode.append(document.getElementById("canvas"));
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+1. What motivated you to become a web developer?
+   This question assesses whether candidates are passionate 
+about their work and helps you evaluate their motivation 
+for applying at your company. Look for passion and enthusiasm 
+for web development, a good understanding of the position’s 
+requirements, and enough experience in a similar role.
+
+5. Can you tell me about the skills that make you a good web developer?
+   Ask this question to determine whether the candidate’s skills match your 
+requirements. Look for a sense of confidence in their abilities and skills.
+
+6.  In HTML, what is the purpose of Canvas?
+    Adding Canvas to HTML5 allows users to draw graphics on the go using JavaScript. 
+You can draw boxes, paths, circles, images, and more on utilizing various methods.
+
+14. In CSS, what is the purpose of a selector?
+With CSS selectors, HTML elements can be easily found and selected based on name, ID, attribute, and more.

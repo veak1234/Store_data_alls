@@ -1,0 +1,32 @@
+@import "../home.scss";
+.btn{
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+.btn-primary {
+    @include btn;
+    background: #0091ff;
+}
+.btn-secondary {
+    @include btn;
+    background: #a8a9aa;
+}
+.btn-warning {
+    @include btn;
+    background: #ffbb00;
+}
+.btn-success {
+    @include btn;
+    background: #0fc975;
+}
+.btn-dark {
+    @include btn;
+    background: #030303;
+}
+.btn-danger {
+    @include btn;
+    background: #e30a0a;
+}

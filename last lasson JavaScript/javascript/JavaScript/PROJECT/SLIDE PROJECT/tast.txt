@@ -1,0 +1,7 @@
+CHECKOUT
+make new .html file for checkout page, add menu bar                2 hours
+get cart array from local storage                                                  1 minutes
+iterate through cart array, and add up all prices inside cart      1day minutes
+display total cost                                                                           30 minutes
+display input boxes for name, address, phone, credit card....    1day minutes
+TOTAL: 4h 30m

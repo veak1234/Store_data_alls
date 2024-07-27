@@ -1,0 +1,39 @@
+
+  
+@import "components/main";
+@import "components/card";
+  
+  
+.main-container {
+    display: flex;
+    height: 90vh;
+}
+  
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    flex: 1;
+}
+  
+main {
+    flex: 4;
+    padding: 20px;
+}
+  
+main h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.group-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

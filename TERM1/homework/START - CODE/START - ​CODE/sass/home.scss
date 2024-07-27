@@ -1,0 +1,32 @@
+@import "./components/main";
+@import "./components/card";
+
+
+.main-container {
+    display: flex;
+    height: 90vh;
+}
+  
+aside {
+    @include centered;
+    @include standard-text-content;
+    flex: 1;
+}
+  
+main {
+    flex: 4;
+    padding: 20px;
+}
+  
+main h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.group-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

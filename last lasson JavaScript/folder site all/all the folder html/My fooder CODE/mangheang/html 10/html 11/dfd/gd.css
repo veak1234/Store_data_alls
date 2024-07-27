@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.menu {
+    background: #a24343;
+    flex:0.5;
+}
+nav {
+    background: #8c3b3b;
+    flex:0.3;
+}
+.box {
+    background: #c05858;
+    color: #fff;
+    width: 48%;
+}
+.side-box {
+    background: #2eb15c;
+   flex: 1;
+    
+}
+.container {
+    flex:5;
+    display: flex;
+}
+.content {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.box,
+.side-box,
+nav,
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}

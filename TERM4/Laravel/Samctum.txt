@@ -1,0 +1,15 @@
+
+			
+			Sanctum
+Command start Sanctum:
+steep1
+// ==== installtion and configuration login and log up
+- composer require Laravel/Sanctum
+
+steep2
+// ==== installed to public Sanctum to the provider
+- php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
+=> Registrion is create user.
+=> Log in is request data when user log in.
+=> log up is to frest data olg.

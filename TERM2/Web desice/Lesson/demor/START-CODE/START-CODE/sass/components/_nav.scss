@@ -1,0 +1,21 @@
+nav {
+    @include centered;
+    height: 10vh;
+    background: $sub-color2;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border-bottom: 2px solid $main-color;
+
+    .logo {
+        width: 55px;
+        height: 55px;
+        background: orange;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+}

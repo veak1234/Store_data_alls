@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <style>
+      #writeMessage ,#clearMessage{
+        margin: 20px;
+        padding: 10px;
+        background: rgb(214, 44, 44);
+        color: rgb(226, 240, 240);
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+      }
+    </style>
+    <button id="writeMessage">Write message</button>
+    <button id="clearMessage">Clear message</button>
+    <h2 id="texts"></h2>
+
+    <script>
+	
+      function writeMessage() {
+        // let text = document.getElementById("text");
+        text.textContent = "Here is a message";
+      }
+
+      function clearMessage(){
+        text.textContent=("");
+      }
+      const text = document.getElementById("texts");
+
+      let writeMessageButton = document.getElementById("writeMessage");
+      writeMessageButton.addEventListener("click", writeMessage);
+
+      let clearMessageButton = document.getElementById("clearMessage");
+      clearMessageButton.addEventListener("click", clearMessage);
+    </script>
+  </body>
+</html>

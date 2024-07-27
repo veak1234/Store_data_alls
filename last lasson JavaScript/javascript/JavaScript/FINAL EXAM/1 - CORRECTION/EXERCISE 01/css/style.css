@@ -1,0 +1,13 @@
+.card{
+    width: 40%;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+img{
+    width: 100%;
+}
+p{
+   padding: 20px;
+}

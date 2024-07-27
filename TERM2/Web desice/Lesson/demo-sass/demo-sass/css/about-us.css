@@ -1,0 +1,231 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+nav {
+  height: 10vh;
+  background: black;
+  border-bottom: 2px solid orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  border-radius: 50px;
+}
+
+.nav-right {
+  width: 40%;
+}
+
+.nav-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-right ul li {
+  list-style: none;
+}
+
+.nav-right ul li a {
+  text-transform: uppercase;
+  font-style: 25px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  color: black;
+}
+
+footer {
+  height: 15vh;
+  background: black;
+  border-top: 2px solid teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer > div a {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  background: white;
+  width: 30%;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+
+.card .img {
+  width: 100%;
+  background: teal;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card .card-content {
+  padding: 10px;
+}
+
+.card .card-content h4 {
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20vh;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header,
+.about-us-content {
+  margin: 20px 0px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-style: 25px;
+  font-weight: bold;
+  color: white;
+  color: white;
+}
+
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners > img {
+  width: 75px;
+  margin: 10px 50px;
+}
+
+.about-us-container {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, white), color-stop(50%, teal), to(teal));
+  background: linear-gradient(to bottom, white 0%, white 50%, teal 50%, teal 100%);
+  padding: 0px 100px;
+  padding-bottom: 25px;
+}
+
+.about-us-content {
+  text-align: center;
+}
+
+header h1,
+.about-us-content h1 {
+  color: black;
+  margin: 10px;
+}
+
+.about-us-content h1 {
+  text-transform: uppercase;
+  font-style: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.about-us-content p {
+  text-align: justify;
+}
+
+.group-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 150px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bg-image {
+  width: 100%;
+}

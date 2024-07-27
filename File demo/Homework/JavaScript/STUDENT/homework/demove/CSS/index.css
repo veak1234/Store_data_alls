@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    gap: 75px;
+    background: rgb(253, 252, 249);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    color: blue;
+    background: rgb(230, 230, 230);
+}
+
+.hemo{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    flex: 2;
+}
+.text,
+.style{
+
+    text-align: end;
+    margin: 20px;
+    flex: 0.1;
+}
+
+main > img{
+    width: auto;
+    height: 10vh;
+    margin-left: 30px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    width: 100%;
+    height: 100vh;
+}
+.number{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+    font-size: 100px;
+}
+
+.vl{
+    border-left: 5px solid red;
+    margin-top: -75px;
+    height: 560px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60vh;
+    box-shadow: -3px -5px 2px 2px blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: rgb(206, 201, 201);
+}
+h1.title{
+    color: blue;
+    font-size: 6rem;
+    font-family: 'Lucida Handwriting';
+}
+h1#number{
+    font-size: 4rem;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+button{
+    width: 30%;
+}
+
+button,
+.btn-group{
+    font-size: 1.7rem;
+}
+.decrease{
+    font-size: 50px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 10vh;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+.homes{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.styles:hover,
+.texts:hover{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.styles:hover,
+.texts:hover,
+.homes:hover{
+    color: white;
+    background: blueviolet;
+}

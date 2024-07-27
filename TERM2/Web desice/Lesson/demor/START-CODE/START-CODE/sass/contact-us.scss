@@ -1,0 +1,15 @@
+@import "main";
+
+body {
+    background: rgba(0, 0, 0, 0.4823529412);
+}
+
+form {
+    width: 35%;
+    height: 70vh;
+    background: $sub-color2;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 75px;
+  }

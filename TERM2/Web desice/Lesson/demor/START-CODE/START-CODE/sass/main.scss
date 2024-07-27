@@ -1,0 +1,10 @@
+@import "./components/vsriable";
+@import "./components/group-mixin";
+@import "./components/nav";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

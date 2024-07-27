@@ -1,0 +1,15 @@
+@import "main";
+@import "./components/card";
+ 
+.about-container {
+    padding: $gapValue 200px;
+    @include centered;
+    flex-direction: column;
+  }
+  
+  .about-container h3,
+  .about-container p,
+  .about-container img {
+    margin-top: $gapValue;
+    text-align: center;
+  }

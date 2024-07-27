@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    border-collapse: collapse;
+    color: white;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+th,td{
+    padding: 8px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+.container tr:nth-child(even){
+    background-color: rgb(123, 123, 123);
+}

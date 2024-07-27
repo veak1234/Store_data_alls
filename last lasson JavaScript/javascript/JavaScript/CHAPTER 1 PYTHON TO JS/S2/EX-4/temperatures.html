@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SUNNY OR COLD ?</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img id="fan" src="" width="400" />
+
+    <script>
+      var temperature = prompt("What is the Temperature ?");
+
+      if (temperature <= 0) {
+        document.getElementById("fan").src = "cold.png"
+      } else if (temperature < 40) {
+        document.getElementById("fan").src = "nice.png";
+      } else {
+        document.getElementById("fan").src = "sunny.png";
+      }
+
+      console.log(temperature)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+/* fooder */
+.fooder{
+    background: rgb(240, 228, 206);
+    width: auto;
+    height: auto;
+}
+
+/* nav */
+
+nav{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: rgb(231, 205, 218);
+}
+
+.nav-lite{
+    display: grid;
+    align-items: center;
+    margin-left: 15px;
+    grid-template-columns: 70px 30px;
+}
+.nav-lite img{
+    width: 70px;    
+}
+.nav-ringht{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 11.5vh;  
+    width: 100%;    
+    grid-template-rows: 50px;
+    grid-template-columns: 135px 135px 135px 135px 135px 135px;
+    font-size: 20px;
+}
+
+/* main */
+main img{
+    width: 100%;
+    height: 70vh;
+}
+
+/* header */
+header{
+    height: 105vh;
+}
+.header p{
+    display: grid;
+    justify-content: center; 
+    grid-template-columns: 180vh;       
+    height: 80px;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.header-lite{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.header-right img{
+    margin-top: 80px;
+    margin-left: 35px;
+    width: 400px;
+    height: 300px;
+}
+.right{
+    display: grid;
+    grid-template-columns: 450px 450px 400px;
+    margin-left: 130px;
+}
+
+/*value-section*/
+
+.value{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 60vh; 
+    width: 95%;     
+    gap: 20px;
+    padding-top: 100px;
+    margin-left: 36px;
+}
+.card1{
+    display: grid;
+    justify-content: center;
+    height: 98%;
+    border: 7px solid darkorchid;
+    background: pink;
+}
+.card1 b{
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 15px; 
+}
+.card1 img{
+    display: grid;
+    width: 210px;
+    height: 205px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.card1 p{
+    margin-left: 10px;
+}
+
+/* Canteen-section */
+
+.mane{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    font-size: 30px;
+}
+
+.mane-cuisine{
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+table{
+    width: 90%;
+    height: 40vh;
+    background: pink;
+}
+td,th{
+    border:1px solid;
+    padding: 10px;    
+}
+td b{
+    display: grid;
+    justify-content: center;
+    color: rgb(196, 40, 40);
+}
+th{
+    background: gainsboro;
+    color: rgb(67, 3, 126);
+}
+td p{
+    display: grid;
+    justify-content: center;
+}
+.canteen{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    height: 60vh; 
+    width: 80%;     
+    gap: 40px;
+    margin-left: 130px;
+}
+.card2{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+    border: 7px solid darkorchid;
+}
+.card2 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.card2 b{
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* Sports-section */
+
+.sport{
+    display: grid;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.sports{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    height: 50vh;    
+    width: 95%;     
+    gap: 20px;
+    padding-top: 60px;
+    margin-left: 36px;
+}
+.card3{
+    display: grid;
+    justify-content: center;
+    height: 95%;
+    border: 7px solid darkorchid;
+}
+.card3 img{
+    width: 270px;
+    height: 200px;
+    margin-top: 20px;
+}
+.card3 b{
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* Aerobic-section */
+
+.Dance b{
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.aerobic{
+    display: grid;
+    grid-template-columns: 240px 240px 240px ;
+    justify-content: space-around;
+    height: 80vh;    
+    width: 90%;     
+    gap: 50px;
+    padding-top: 80px;
+    margin-left: 36px;
+}
+.card4{
+    display: grid;
+    justify-content: center;
+    height: 90%;
+}
+.card4 img{
+    width: 100%;
+    height: 35vh;
+    border: 7px solid darkorchid;
+}
+
+/* Contact us section */
+
+.contact{
+    background-image: url(img.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: 220vh;
+    display: grid;
+    grid-template-columns: 700px 400px;
+    justify-content: center;
+    padding-top: 90px;
+    margin-top: 130PX;
+}
+.contact-us-form{
+    background: pink;
+    display: grid;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    border-radius: 20px;
+}
+form{
+    display: grid;
+    grid-template-rows: 60px;
+}
+h2{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bolor;
+}
+.passwords input,
+.username input{
+    height: 25px;
+    width: 48%;
+}
+.email input{
+    height: 25px;
+    width: 98%;
+}
+.subject,
+.gender{
+    display: grid;
+    grid-template-columns: 75px 300px;
+}
+.date input{
+    height: 25px;
+}
+.fruit{
+    height: 35px;
+}
+button{
+    height: 35px;
+    background: rgb(116, 116, 226);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.google-map b{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.google-map iframe{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+/* Footer section */
+
+Footer{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 300px 270px 270px 270px 270px ;
+}
+.footer{
+    width: 80%;
+    display: grid;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.footer-irght b,
+.footer b{
+    font-size: 25px;
+}
+
+.footer-irght{
+    display: grid;
+    margin-top: 60px;
+}

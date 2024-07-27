@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+header,
+.header-left,
+.header-right,
+.container,
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    background: rgb(46, 7, 85);
+    flex:.25;
+    color: white;
+}
+
+header {
+    background: rgb(94, 46, 143);
+    flex:.5;
+}
+
+.header-left {
+    height: 100%;
+    background: #2187af;
+    flex:2
+}
+.header-right {
+    height: 100%;
+    background: #4e0b75;
+    flex:2;
+}
+.container {
+    background: #a87575;
+    flex:3;
+}

@@ -1,0 +1,20 @@
+@import "main";
+@import "./components/card";
+
+.main-container {
+    display: flex;    
+    height: 90vh;
+    aside{
+        @include centered;
+        flex: 1;
+        background: $sub-color2;
+        @include startderd-text-content;
+    }
+    main{
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+}

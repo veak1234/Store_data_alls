@@ -1,0 +1,20 @@
+@mixin centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin startdard-text-content{
+    color: $sub-color1;
+    font: {
+        weight: bold;
+        size: 25px;
+    }
+}
+@mixin text-header{
+    margin: 10px;
+    text: {
+        direction: underline;
+        transform: uppercase;
+        align: center;
+    }
+}

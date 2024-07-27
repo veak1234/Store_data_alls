@@ -1,0 +1,353 @@
+@media(max-width: 800px){
+    nav{
+        grid-template-columns: 28% 73%;
+    }
+    .nav-lite{
+        margin-left: 5px;
+        grid-template-columns: 0.5fr 1fr;
+    }
+    .nav-lite p{
+        font-size: 15px;
+    }
+    .nav-lite img{
+        width: 40px;    
+    }
+    .nav-ringht{ 
+        grid-template-rows: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        font-size: 11px;
+    }
+    main img{
+        height: 60vh;
+    }
+    /* header */
+    header{
+        height: 20vh;
+    }
+    .header p{
+        grid-template-columns: 110vh;       
+        font-size: 15px;
+    }
+    .header-lite{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .header-right img{
+        margin-top: 40px;
+        margin-left: 100px;
+        width: 250px;
+        height: 200px;
+    }
+    .right{
+        display: grid;
+        grid-template-columns: 450px 450px 400px;
+        margin-left: 130px;
+    }
+    /* .value */
+    .value{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh; 
+        width: 86%;     
+        padding-top: 650px;
+    }
+    .card1{
+        display: grid;
+        justify-content: center;
+        width: 70%;
+        height: 50vh;
+        border: 7px solid darkorchid;
+        background: pink;
+    }
+    .card1 b{
+        font-size: 20px;
+        margin-top: 8px;
+        height: 8vh;
+    }
+    .card1 img{
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+    .card1 p{
+        font-size: 10px;
+    }
+    /* ca */
+    .mane{
+        font-size: 20px;
+        margin-top: 400px;
+    }
+    .mane-cuisine{
+        margin-top: 300px;
+    }
+    table{
+        height: 30vh;
+    }
+    td,th{
+        padding: 0px;    
+    }
+    .canteen{
+        grid-template-columns: 1fr 1fr;
+        height: 50vh; 
+        width: 80%;     
+        margin-left: 45px;
+    }
+    .card2{
+        align-items: center;
+        width: 90%;
+        height: 40vh;
+    }
+    .card2 img{
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .card2 b{
+        font-size: 20px;
+    }
+        /* speak-as: ; */
+    .sport{
+        margin-left: 80px;
+        margin-top: 80px;
+        font-size: 25px;
+    }
+    .sports{
+        grid-template-columns: 1fr 1fr;
+        width: 90%;     
+        gap: 20px;
+    }
+    .card3{
+        display: grid;
+        justify-content: center;
+        height: 95%;
+        border: 7px solid darkorchid;
+    }
+    .card3 img{
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+    }
+    .Dance b{
+        margin-top: 150px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .aerobic{
+        grid-template-columns: 200px 200px ;
+        height: 80vh;    
+        width: 83%;     
+    }
+
+    /* //// */
+    .contact{
+        background-image: url(img.jpg);
+        height: 110vh;
+        background-size: 220vh;
+        grid-template-columns: none;
+        padding-top: 0px;
+        margin-top: 350PX;
+    }
+    .contact-us-form{
+        background: none;
+        border: 2px solid pink;
+        color: whitesmoke;
+    }
+    .fruit{
+        height: 35px;
+    }m 
+    /* // */
+    Footer{
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 300px 270px 200px;
+    }
+    .footer{
+        width: 80%;
+        display: grid;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    .footer-irght b,
+    .footer b{
+        font-size: 25px;
+    }
+    
+    .footer-irght{
+        display: grid;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+}
+@media(max-width: 700px){
+    nav{
+        grid-template-columns: 28% 73%;
+    }
+    .nav-lite{
+        margin-left: 3px;
+        grid-template-columns: 0fr 1fr;
+    }
+    .nav-lite p{
+        font-size: 10px;
+    }
+    .nav-lite img{
+        width: 40px;    
+    }
+    .nav-ringht{ 
+        grid-template-rows: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        font-size: 8.5px;
+    }
+    main img{
+        width: 100%;
+        height: 35vh;
+    }
+
+    /* header */
+
+    header{
+        height: 160vh;
+    }
+    .header p{
+        grid-template-columns: 90vh;       
+        font-size: 15px;
+    }
+    /* .value */
+
+    .value{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh; 
+        width: 86%;     
+        padding-top: 100px;
+    }
+    .card1{
+        display: grid;
+        justify-content: center;
+        height: 98%;
+        width: 95%;
+        border: 7px solid darkorchid;
+        background: pink;
+    }
+    .card1 b{
+        font-size: 20px;
+    }
+    .card1 img{
+        width: 150px;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .card1 p{
+        font-size: 10px;
+    }
+
+    /* ca */
+    .mane{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .mane-cuisine{
+        margin-top: 300px;
+    }
+    table{
+        height: 30vh;
+    }
+    td,th{
+        padding: 0px;    
+    }
+    .canteen{
+        grid-template-columns: 1fr 1fr;
+        height: 50vh; 
+        width: 80%;     
+        margin-left: 45px;
+    }
+    .card2{
+        align-items: center;
+        width: 90%;
+        height: 40vh;
+    }
+    .card2 img{
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .card2 b{
+        font-size: 20px;
+    }
+
+        /* speak-as: ; */
+    .sport{
+        margin-left: 80px;
+        margin-top: 80px;
+        font-size: 25px;
+    }
+    .sports{
+        grid-template-columns: 1fr 1fr;
+        width: 90%;     
+        gap: 20px;
+    }
+    .card3{
+        display: grid;
+        justify-content: center;
+        height: 95%;
+        border: 7px solid darkorchid;
+    }
+    .card3 img{
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+    }
+    .Dance b{
+        margin-top: 150px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .aerobic{
+        grid-template-columns: 200px 200px ;
+        height: 80vh;    
+        width: 83%;     
+    }
+
+    /* //// */
+    .contact{
+        background-image: url(img.jpg);
+        height: 110vh;
+        background-size: 220vh;
+        grid-template-columns: none;
+        padding-top: 0px;
+        margin-top: 350PX;
+    }
+    .contact-us-form{
+        background: none;
+        border: 2px solid pink;
+        color: whitesmoke;
+    }
+    .fruit{
+        height: 35px;
+    }
+
+    /* // */
+    Footer{
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 300px 270px;
+    }
+    .footer{
+        width: 80%;
+        display: grid;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    .footer-irght b,
+    .footer b{
+        font-size: 25px;
+    }
+    
+    .footer-irght{
+        display: grid;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+}

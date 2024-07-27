@@ -1,0 +1,41 @@
+
+/**** 05, 15, 2024 ****/
+
+//Command to create Controller//
+php artisan make:contraller Youcontroller
+
+// Command to create Resource Controller//
+php artisan make:comtroller YouController --resource
+php artisan make:comtroller YouController --r
+
+// Command to create API Controller//
+php artisan make:controller YourController --api
+
+// command to create Model and Migration table//
+php artisan make:model YourModel --migration
+php artisan make:model YourModel -m
+
+//Command to create Model, basic Controller and migration table//
+php artisan make:model YourModel --all
+php artisan make:model YourModel -a
+
+//Command to create Model, Resource Controller and Migration table//
+php artisan make:model YourModel --migration --controller --resource
+php artisan make:model YourModel -m -c -r
+php artisan make:model YourModel -mcr
+
+// Command to create Model, API Controller and Migration table//
+php artisan make:model YourModel --migration --controller --api
+php artisan make:model YourModel -m -c --api
+php artisan make:model YourModel -mc --api
+
+// Command check route list//
+php artisan route:list
+
+// Add data in table
+php artisan migrate
+
+// delete data for table//
+php artisan migrate:fresh
+
+// Filter the route list by URI//

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+.home-page{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/family.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 3vh;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: gold;
+}
+main h2:hover{
+    height: 30px;
+    color: blue;
+}
+form h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 90vh;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding:20px;
+    background-color: rgb(29, 224, 150);
+}
+button{
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    background-color: gold;
+    
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+label{
+    margin-top: 30px;
+}
+select,
+input{
+    padding: 10px;
+}
+.radio{
+    display: flex;
+    gap: 20px;
+}
+
+.checkbox{
+    display: flex;
+    padding-top: 10px;
+}
+.footer-checkbox,
+.heatder-checkbox{
+    flex: 1;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+/* resuld */
+.Certificate{
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 248, 248);
+}
+h1{
+    margin-top: -50px;
+}
+.card-certificate{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    border-radius: 5px;
+    gap: 30px;
+    border-style: solid;
+    border-color: red;
+    background-color: rgb(105, 236, 236);
+}
+img{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+}

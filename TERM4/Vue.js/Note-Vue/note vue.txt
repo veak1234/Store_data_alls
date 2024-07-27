@@ -1,0 +1,49 @@
+
+What is Vue.js?
+  Vue.js is a javaScript framework to create a reactive 
+web application easire.
+
+How to install vue.js?
+speb1: npm install -g @vue/cli
+speb2: vue -V //check vue.js
+speb3: vue create hello-word
+
+
++ How to run vue.js?
+  -npm run serve
+
++ How to create project niew?
+  - vue create name-project
+
+1, v-model //​ សម្រាប់ចាប់ដម្លៃពីរការបញ្ចូល
+2, computed // គឺការគណនា អ្វីមួយភ្លាមៗ
+
+====================================================================
+<=> 05/09/2024
+- views
+- components
+====== I to learn it for 9day =========
+1. views
+2. components: is part of view page
+2. props: passing data from parent to child
+
+<<==>>
+scoped ដើម្បីបញ្ជប់ដណើរការ របស់ script.
+
+================================================================
+<<=== we use the props ===>>
+<UserProfile user_profile = "User Profile"/>
+
+For user_profile this is the Key of UserProfile.
+
+
+===================================================
+<<======= We has use store ========>>
+
+1.install
+2.config in main.js
+3.create file 
+4.state,getters and actions
+5.using store 
+  -import state
+  -using state

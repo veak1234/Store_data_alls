@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background: rgb(230, 230, 230);
+}
+.hemo{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    flex: 2;
+}
+.text,
+.style{
+    flex: 0.1;
+}
+h1.homes{
+    margin-left: 10px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+h1.styles,
+h1.texts{
+    height: 10vh;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.styles:hover,
+.texts:hover,
+.homes:hover{
+    color: white;
+    background: blueviolet;
+}
+main > img{
+    width: auto;
+    height: 10vh;
+    margin-left: 30px;
+}

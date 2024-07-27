@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+ul {
+    background: white;
+    border: 2px solid red; 
+    padding: 15px
+}
+.nav-left{
+    width: 30%;
+
+}
+.nav-right {
+    width: 10%;
+}

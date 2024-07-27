@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+
+}
+
+.container-nav{
+    /* background: pink; */
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(161, 155, 155);
+}
+.nav-left{
+    /* background: green; */
+    padding: 9px;
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.icon-custom{
+    background: blue;
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.facebook-search{
+    background: rgb(202, 202, 221);
+    border-radius: 20px;
+    color: white;
+    width: 280px;
+    height: 35px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-center{
+    /* background: greenyellow; */
+    flex: 1;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-right{
+    /* background: gold; */
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.nav-right .icon-color{
+    background: rgb(61, 60, 60);
+    border-radius: 500%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(189, 182, 182);
+}
+.container{
+    padding: 7px;
+    display: flex;
+    height: 90%;
+    gap: 10px;
+    background: rgb(246, 246, 246);
+    justify-content: center;
+}
+.div-left{
+    background: gray;
+    width: 30%;
+
+}
+.div-center{
+    background: red;
+    width: 45%;
+}
+
+.div-right{
+    background: blue;
+    width: 30%;
+}

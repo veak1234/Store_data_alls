@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html onmousemove="moveBox(event)">
+  <head>
+    <title>A Function to Move a Box</title>
+    <style type="text/css">
+      div.box {
+        width: 100px;
+        height: 100px;
+        background: #038;
+        position: absolute;
+        border-radius: 50%;
+        top: -100px;
+        left: -400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>A Function to Move a Box</h2>
+    <hr />
+    <div class="box" id="box"></div>
+
+    <script>
+      function moveBox(event) {
+        let box = document.getElementById("box");
+      
+        // 1- Get the event position: use event.clientX and event.clientY properties
+        let x =event.clientX-50
+        let y =event.clientY-50
+        // console.log("x : "+x + " " + "y : "+y)
+        // 2 - change the box position  : use the style.top and style.left properties
+        box.style.top = y + "px" 
+        box.style.left = x + "px" 
+      }
+
+      // - the mouse mouve event name is : "mousemove"
+      // - to get the HTML root node : document.documentElement
+      document.documentElement.addEventListener("mousemove", moveBox);
+    </script>
+  </body>
+</html>

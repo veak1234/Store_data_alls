@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    text-align: left; 
+    text-align: center;
+}
+.table-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 3px solid blue;
+    border-right: 1px solid blue;
+
+}
+tr th:nth-child(odd){
+    background: rgb(88, 73, 73);
+    color: white;
+}
+tr th:nth-child(even){
+    background: rgb(118, 137, 196);
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(232, 231, 231);
+}

@@ -1,0 +1,73 @@
+
+How to create Swagger in the project.
+
+Step 1: commend create swagger
+-> composer require darkaonline/l5-swagger
+
+Step 2: 
+php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+
+Step 3:
+L5_SWAGGER_CONST_HOST= my name Http
+
+Step 4: Copy following to controller
+/**
+ * @OA\Info(
+ *     title="APIs For Thrift Store",
+ *     version="1.0.0"
+ * ),
+ * @OA\SecurityScheme(
+ *     securityScheme="bearerAuth",
+ *     in="header",
+ *     name="bearerAuth",
+ *     type="http",
+ *     scheme="bearer",
+ *     bearerFormat="JWT"
+ * )
+ */
+
+Step 5: create controller
+php artisan make:controller UserController
+
+6, Copy following to User Controller
+/**
+ * @OA\Post(
+ *     path="/api/home",
+ *     summary="Home data",
+ *     description="",
+ *     tags={"Home"},
+ *     @OA\Parameter(
+ *         name="name",
+ *         in="query",
+ *         description="Provide your name",
+ *         required=true,
+ *         @OA\Schema(
+ *             type="string"
+ *         )
+ *     ),
+ *     @OA\Response(
+ *         response=200,
+ *         description="OK",
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(
+ *                 property="name",
+ *                 type="string"
+ *             ),
+ *             @OA\Property(
+ *                 property="message",
+ *                 type="string"
+ *             )
+ *         )
+ *     )
+ * )
+ */
+
+Step 6: 
+php artisan L5-swagger:generate
+
+Step 7: 
+php artisan serve
+
+Step 8: Copy following to my Route
+/api/documentation

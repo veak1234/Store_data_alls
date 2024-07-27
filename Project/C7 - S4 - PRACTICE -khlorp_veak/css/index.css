@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* body */
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* navber */
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: beige(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    position: fixed;
+    background-color: #98b9d9;
+    top: 0px;
+    width: 100%;
+    height : 8%;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    background-color: rgb(119, 99, 99);
+    color: white;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    position: fixed;
+    background-color: #98b9d9;
+
+}
+
+/* food */
+.food{
+    height: 40px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.myfood{
+    list-style: none; 
+    background: whitesmoke;
+}
+
+/* header */
+.header-up p{
+    font-size: 3.5rem;
+}
+.header{
+    background-image: url(../img/hi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 0px 90px;
+}
+.header-up{
+    padding-top: 35px;
+    width: 65%;
+}
+.g{
+    padding-top: 50px;
+}
+.header-down{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background: white;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+/* / */
+
+button{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: blue;
+    color: white;
+}
+.header-right{
+    display: flex;
+}
+
+
+.box{
+    width: 350vh;
+    padding-top: 30px;
+}
+.cart1{
+    width: 40%;
+    height: 25vh;
+    border-radius: 20px;
+    background: white;
+}
+.cart1 li{
+    font-size: 0.7rem;
+    padding: 10px;
+}
+.box1,
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px; 
+}
+.cart1 p{
+    display: flex;
+    justify-content: center;
+}
+.cart1 i{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#go{
+    padding-left: 41px;
+}
+.box-irght{
+    padding-top: 45px;
+}
+.box-irght1 h1{
+    font-size: 2.5rem;
+}
+.box-irght1 li{
+    padding-top: 20px;
+}
+.box-right2{
+    padding-top: 60px;
+}
+
+/* / */
+.h{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+.hatder{
+    width: 60%;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.L img,
+.M img{
+    padding-top: 20px;
+}
+.countaider-right{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 170px;
+    font-size: 2rem;
+}
+.On-Time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55vh;
+    background: #1987a0;
+}
+.On-life2{
+    height: auto;
+    /* padding-top: 50px; */
+    /* width: 500px; */
+}
+.On-life2 i{
+    font-size: 3rem;
+}
+
+/* / */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    height: 50vh;
+}
+.navbat-life{
+    width: 57%;
+}
+.dou-right{
+    width: 22.5%;
+    background: rgb(119, 99, 99);
+}
+.butto{
+    padding-top: 35px;
+}
+.dou-right img{
+    width: 50vh;
+    height: 50vh;
+    margin: -20px;
+}
+.number{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    height: 20vh;
+}
+.vedo,
+.k,
+.pictuer{
+    display: flex;
+    justify-content: center;
+}
+.pictuer{
+    padding-top: 130px;
+}
+.vedo{
+    padding-top: 50px;    
+}
+.k{
+    width: 45%;
+    padding-top: 20px;
+}
+.kk{
+    display: flex;
+    justify-content: center;
+}
+.countarn{
+    padding-top: 80px;
+}
+.container-life1{
+    background: #7eafc1;
+    background-image: linear-gradient(90deg, #fff7fb, #efe7f2, #dbd8ea, #bfc9e2, #98b9d9, #6aa8cf, #4096c0, #1987a0, #047877, #016353, #016353);
+    height: 40vh;
+    padding-top: 30px;
+}
+.man1,
+.man2,
+.man3{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.man2 button{
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+}
+.man3 button{
+    width: 10%;
+    background: none;
+    border: 2px solid white;
+}
+
+/* manyou */
+
+.manyou{
+    display: flex;
+    justify-content: space-between;
+}
+.manyou-life{
+    height: 30vh;
+    width: 30%;
+    padding: 80px  80px;
+}
+.right{
+    padding-top: 20px;
+}
+.manyou-ringht{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.finht1{
+    padding-top: 80px;
+}
+.finht1 p{
+    margin-top: 20px;
+}
+.right p{
+    margin-top: 10px;
+}
+.life{
+    display: flex;
+}
+.life img{
+    width: 15%;
+}
+.life h1{
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: none;
+}
+.iocns{
+    display: flex;
+    gap: 10px;
+}
+.iocns i{
+    margin-top: 18px;
+}
+.iocns p{
+ margin-top: 20px;
+}
+.D img,
+.G img,
+.L img,
+.M img,
+.N img{
+    width: 200px;
+}

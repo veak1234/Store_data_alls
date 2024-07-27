@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <input type="radio" name="color" value="Banana" /> BANANA
+    <input type="radio" name="color" value="Apple" /> APPLE
+    <input type="radio" name="color" value="Mango" /> MANGO
+    <h1 id="h1"></h1>
+    <select name="fruit" id="selection" value = "section">
+      <option value="banana" >BANANA</option>
+      <option value="coconate" >COCONAT</option>
+      <option value="chery" >CHERY</option>
+    </select>
+    <button id="select" >Click add</button>
+    <h2 id="h2"></h2>
+    <script>
+      function setColor(event) {
+        let radiovalue = event.target.value;
+        let h1 = document.getElementById("h1");
+        h1.textContent = radiovalue;
+        // console.log(h1)
+      }
+      // select all radio elements
+      let buttons = document.getElementsByName("color");
+      for (button of buttons) {
+        button.addEventListener("change", setColor);
+      }
+
+    // select select 
+    function selectValue(){
+      let result = " ";
+      for(let value of getSelet){
+        if(value.selected){
+          result += value.value;
+          h2.textContent = result;
+          h2.textContent.toUpperCase;
+          
+        }
+      }
+    }
+    let h2 = document.getElementById("h2");
+    let getSelet  = document.querySelector("#selection");
+    console.log(getSelet);
+    let getButton = document.getElementById("select");
+    getButton.addEventListener("click",selectValue)
+    </script>
+  </body>
+</html>

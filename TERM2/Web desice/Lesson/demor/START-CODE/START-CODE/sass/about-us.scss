@@ -1,0 +1,24 @@
+@import "main";
+@import "./components/card";
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-background,
+.company-mission,
+.main-bottom {
+  margin: 10px;
+
+  h1 {
+    @include text-header;
+    margin: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

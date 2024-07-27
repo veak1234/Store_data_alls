@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .container{
+            padding: 10px;
+            width: 27%;
+            margin: auto;
+            margin-top: 100px;
+        }
+    </style>
+<body>
+    <div class="container">
+        <button id="on">Trun on the light</button>
+        <img src="pic_bulboff.gif" alt="">
+        <button id="off">Trun off the light</button>
+    </div>
+    <script>
+        buttonOn = document.getElementById("on")
+        buttonOff = document.getElementById("off")
+        buttonOn.addEventListener('click', function(){
+            img = document.querySelector("img").src="pic_bulbon.gif";
+        })
+        buttonOff.addEventListener('click', function(){
+            img = document.querySelector("img").src="pic_bulboff.gif";
+        })
+        
+    </script>
+</body>
+</html>

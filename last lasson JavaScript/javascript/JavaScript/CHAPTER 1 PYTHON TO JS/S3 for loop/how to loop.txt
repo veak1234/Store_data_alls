@@ -1,0 +1,34 @@
+for (let index in array){
+loop by in index
+}
+
+for (let value of array){
+loop by value
+}
+
+for(let i=0;i<students.length;i++){
+loop by range
+}
+
+== compar only value
+=== compar value and data type
+
+
+
+deferen between let and const
+let can change
+example 
+let x=5
+    x=10
+conlose.log(x)
+	x=10
+const cna't change
+let x=5
+    x=10
+conlose.log(x)
+	runtime error 
+
+const neet value 
+example
+const sum; error
+const sum=10 correct

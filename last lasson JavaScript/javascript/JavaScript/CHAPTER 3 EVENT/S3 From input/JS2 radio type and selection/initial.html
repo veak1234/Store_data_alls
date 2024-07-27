@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <input type="radio" name="fruitChoice" value="MANGO" />MANGO
+  <input type="radio" name="fruitChoice" value="BANANA" checked />BANANA
+  <input type="radio" name="fruitChoice" value="APPLE" />APPLE
+  <button id="okButton" type="button">OK</button>
+
+  <label for="country">Country:</label>
+  <select name="country" id="country">
+      <option value="India">India</option>
+      <option value="Sri Lanka">Sri Lanka</option>
+      <option value="Australia">Australia</option>
+  </select>
+  <p id="output"></p>
+  <p id="output2"></p>
+
+  <script>
+    function apply() {
+      // On click on OK : write on the output : the selected fruit
+
+      // TIP 1 : you can use the getElementsByName to get the list of ALL element with the name
+      // TIP 2 : To check if the radio is checked or not, you can use the property : checked
+      let getInput = document.getElementsByName("fruitChoice");
+      let result=""
+      for(let name of getInput){
+        console.log(name.value)
+        if(name.checked){
+          result += name.value; /// name of input and value of name 
+          document.getElementById("output").textContent=result; // textContent for show on sceen 
+        }
+      }
+      
+      //option 
+      let option = document.querySelector("#country");
+      let result2=""
+      for(let name of option){
+        console.log(name.selected)
+        if(name.selected){
+          result2 += name.value; /// name of input and value of name 
+          document.getElementById("output2").textContent=result2; // textContent for show on sceen 
+        }
+      }
+    }
+    document.getElementById("okButton").addEventListener("click", apply);
+  </script>
+</body>
+
+</html>

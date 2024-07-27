@@ -1,0 +1,5 @@
+
+Why we learn OOP?
+
+-> Beacause:
+functionlity > OOP concept > Design Pattern;

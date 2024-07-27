@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var canvoy_1 = require("./canvoy");
+var minivan_1 = require("./minivan");
+var tuctuc_1 = require("./tuctuc");
+var batmobile_1 = require("./batmobile");
+var minivan = new minivan_1.MiniVan("LVT4EVER", 20, 15, 3);
+var tucTuc = new tuctuc_1.TucTuc("TucTuc", 10, 10);
+var batmobile = new batmobile_1.Batmobile("Batmobile", 100, 1200, true);
+var vehicles = [minivan, tucTuc, batmobile];
+var canvoy = new canvoy_1.Canvoy(vehicles);
+console.log(JSON.stringify(canvoy));
+console.log(canvoy.getMaxSpeed());

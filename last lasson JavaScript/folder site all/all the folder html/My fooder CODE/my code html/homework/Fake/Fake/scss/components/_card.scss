@@ -1,0 +1,36 @@
+@import "variable";
+@import "group-mixins";
+
+.card {
+    width: 23%;
+    height: 150px;
+    background: $main-color;
+    @include df-fdc;
+    border-radius: 10px;
+    border: 1px solid $secondary-color;
+
+    .card-header {
+        flex: 1;
+        text-align: center;
+        color: $quinary-color;
+    }
+
+    .card-body {
+        padding: 10px;
+        flex: 2.5;
+        background: $quinary-color;
+    }
+
+    .card-footer {
+        @include df-aic-jcc;
+        flex: 1.5;
+        justify-content: flex-end;
+        padding-right: 10px;
+        button {
+            @include border;
+            cursor: pointer;
+            background: $primary-color;
+            color: $quinary-color;
+        }
+    }
+}

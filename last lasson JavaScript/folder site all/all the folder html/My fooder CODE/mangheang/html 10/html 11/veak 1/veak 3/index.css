@@ -1,0 +1,12 @@
+body {
+    background: gray;
+}
+div {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+h1 {
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}

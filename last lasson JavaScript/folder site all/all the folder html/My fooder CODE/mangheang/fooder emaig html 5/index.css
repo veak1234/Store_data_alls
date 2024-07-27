@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+nav {
+    background: greenyellow;
+    flex: 0.4;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    padding: 14px;
+    text-transform: uppercase;
+}
+nav ul li a {
+    color: red;
+}
+
+Header {
+    background: red;
+    padding: 10px;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=650%2Cq=70%2Csharpen=1%2Cwidth=956/wp-content/uploads/international-cat-day1-scaled.jpg);
+    background-size: cover;
+    background-position: 0%;
+
+}
+.text {
+    width: 50%;
+    margin: auto;
+}
+.container{
+    background: rebeccapurple;
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+text{
+    width: 50%;
+    margin: auto;
+    color: gold;
+    
+}
+button {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    background: gray;
+    color: white;
+    font-size: 17px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.box {
+    width: 32%;
+    border: 2px solid gold;
+    background: #fff;
+
+
+}
+.content {
+    display: flex;
+    flex: 3;
+    background: rebeccapurple;
+}
+
+
+.container-left{
+    width: 50%;
+    flex: 1;
+    background: green;
+}
+
+.container-right {
+    background: orange;
+    flex: 1;
+    display: flex;
+}
+footer {
+    background: olivedrab;
+    flex: 1;
+}

@@ -1,0 +1,9 @@
+
+=> use ts-node <=
+sp 1 => npm install -g ts-node
+sp 2 => npm list -g
+sp 3 => ts-node src/Main.ts
+
+=> run file ts <=
+sp 1 => tsc script.ts
+sp 2 => node script.js

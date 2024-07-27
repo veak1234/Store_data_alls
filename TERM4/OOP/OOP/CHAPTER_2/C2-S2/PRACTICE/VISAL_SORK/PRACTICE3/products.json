@@ -1,0 +1,17 @@
+[
+    {
+        "id":0,
+        "name":"Screen",
+        "brand":"Asus"
+    },
+    {
+        "id":1,
+        "name":"Battery",
+        "brand":"Apple"
+    },
+    {
+        "id":2,
+        "name":"Phone",
+        "brand":"Apple"
+    }
+]

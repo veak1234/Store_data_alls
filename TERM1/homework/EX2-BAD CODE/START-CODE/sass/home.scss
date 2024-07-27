@@ -1,0 +1,19 @@
+@import "./component/main";
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    gap: 10px;
+}  
+.card {
+    border: 1px solid $text;
+    padding: 10px;
+}
+.card-header {
+    text-transform: uppercase;
+    border-bottom: 1px solid $text;
+}
+.active {
+    background: $boday;
+}

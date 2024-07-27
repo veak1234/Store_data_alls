@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body style="font-family: sans-serif;">
+    <button id="alert" style="width: 10%; background: red; padding: 10px; border-radius: 10px;color: white; border: none;box-shadow: 2px 2px 5px 1px rgb(37, 209, 200);">Delete</button>
+    <button id="susess" style="width: 10%; background: blue; padding: 10px; border-radius: 10px;color: white; border: none; box-shadow: 2px 2px 5px 1px rgb(37, 209, 200);">click</button>
+    <script>
+        document.getElementById("alert").addEventListener("click", function(){
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                        'Deleted!',
+                        'Your file has been deleted.',
+                        'success'
+                    )
+                }
+            })
+        })
+
+        document.getElementById('susess').addEventListener('click',function(){
+            Swal.fire(
+            'Good job!',
+            'You clicked the button!',
+            'success'
+            )
+        })
+    </script>
+</body>
+
+</html>

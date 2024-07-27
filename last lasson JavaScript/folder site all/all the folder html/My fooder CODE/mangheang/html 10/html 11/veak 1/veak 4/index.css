@@ -1,0 +1,22 @@
+body {
+    background: gray;
+}
+div {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 5px solid orange;
+}
+p u strong {
+    color: goldenrod;
+}
+strong {
+    color:rgba(0, 146, 24, 0.767);
+}
+h1 {
+    color: rgba(65, 105, 225, 0.788);
+    font-family: Arial, Helvetica, sans-serif;
+}
+u {
+    color: orange;
+}

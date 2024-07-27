@@ -1,0 +1,164 @@
+1.bar chart
+
+    var bar = document.getElementById('barChart');
+
+    if (bar) {
+      var myCanvas = bar.getContext('2d');
+      var barChart = new Chart(myCanvas, {
+        type: 'bar',
+        data: {
+          labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+          datasets: [{
+            label: 'Female',
+            data: [20, 15, 25, 30, 18, 22, 28,90,12,70,88,20], // Female data
+            backgroundColor: 'rgba(255, 99, 132, 0.5)', // Pink color for female bars
+            borderColor: 'rgba(255, 99, 132, 1)', // Pink color for female bars
+            borderWidth: 2
+          }, {
+            label: 'Male',
+            data: [15, 12, 20, 25, 20, 18, 24,10,20,30,40,50], // Male data
+            backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue color for male bars
+            borderColor: 'rgba(54, 162, 235, 1)', // Blue color for male bars
+            borderWidth: 2
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              min: 0,
+              ticks: {
+                stepSize: 5 // Adjust the step size as needed
+              },
+              grid: {
+                display: false
+              }
+            },
+            x: {
+              grid: {
+                color: 'rgba(0, 0, 0, 0.1)' // Adjust grid line color
+              }
+            }
+          },
+          plugins: {
+            legend: {
+              position: 'top',
+              align: 'end',
+              labels: {
+                boxWidth: 8,
+                boxHeight: 8,
+                usePointStyle: true,
+                font: {
+                  size: 12,
+                  weight: '500'
+                }
+              }
+            },
+            title: {
+              display: true,
+              text: ['Gender statistics', 'Nov - July'],
+              align: 'start',
+              color: '#171717',
+              font: {
+                size: 16,
+                family: 'Inter',
+                weight: '600',
+                lineHeight: 1.4
+              }
+            }
+          },
+          tooltips: {
+            mode: 'index',
+            intersect: false
+          },
+          hover: {
+            mode: 'nearest',
+            intersect: true
+          }
+        }
+      });
+      charts.gender = barChart;
+    }
+
+2. 
+   // var ctx = document.getElementById('myChart');
+
+    // if (ctx) {
+    //   var myCanvas = ctx.getContext('2d');
+    //   var myChart = new Chart(myCanvas, {
+    //     type: 'doughnut',
+    //     data: {
+    //       labels: ['USA', 'China', 'India', 'Brazil', 'Russia'],
+    //       datasets: [{
+    //         label: 'Users by Country',
+    //         data: [25, 20, 15, 10, 5], // Example data representing percentages or counts
+    //         backgroundColor: [
+    //           'rgba(255, 99, 132, 0.5)', // Red
+    //           'rgba(54, 162, 235, 0.5)', // Blue
+    //           'rgba(255, 206, 86, 0.5)', // Yellow
+    //           'rgba(75, 192, 192, 0.5)', // Green
+    //           'rgba(153, 102, 255, 0.5)' // Purple
+    //         ],
+    //         borderColor: [
+    //           'rgba(255, 99, 132, 1)',
+    //           'rgba(54, 162, 235, 1)',
+    //           'rgba(255, 206, 86, 1)',
+    //           'rgba(75, 192, 192, 1)',
+    //           'rgba(153, 102, 255, 1)'
+    //         ],
+    //         borderWidth: 1
+    //       }]
+    //     },
+    //     options: {
+    //       plugins: {
+    //         title: {
+    //           display: true,
+    //           text: 'Users by Country',
+    //           fontSize: 16,
+    //           fontColor: '#171717',
+    //           fontFamily: 'Inter',
+    //           fontWeight: '600',
+    //           lineHeight: 1.4
+    //         },
+    //         legend: {
+    //           position: 'right',
+    //           align: 'center',
+    //           labels: {
+    //             boxWidth: 10,
+    //             boxHeight: 10,
+    //             usePointStyle: true,
+    //             fontSize: 12,
+    //             fontColor: '#171717',
+    //             fontFamily: 'Inter',
+    //             fontWeight: '500'
+    //           }
+    //         }
+    //       },
+    //       tooltips: {
+    //         callbacks: {
+    //           label: function(tooltipItem, data) {
+    //             var dataset = data.datasets[tooltipItem.datasetIndex];
+    //             var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
+    //               return previousValue + currentValue;
+    //             });
+    //             var currentValue = dataset.data[tooltipItem.index];
+    //             var percentage = Math.floor(((currentValue / total) * 100) + 0.5);
+    //             return data.labels[tooltipItem.index] + ': ' + percentage + '%';
+    //           }
+    //         }
+    //       }
+    //     }
+    //   });
+    //   charts.country = myChart;
+    // }
+
+3.
+    fetch('database/chart.php')
+        .then(response => response.json())
+        .then(data => {
+          // Data is now available here
+          console.log("hi", data);
+          // You can use the data to populate your chart or perform any other operation
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });

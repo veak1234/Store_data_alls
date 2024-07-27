@@ -1,0 +1,25 @@
+@import "variable";
+@import "group-mixins";
+
+
+.service {
+    @include df-aic-jcc;
+    width: 27%;
+    align-items: flex-start;
+    border: 1px solid $quaternary-color;
+    border-radius: 10px;
+    img {
+      width: 100px;
+      z-index: 1;
+      position: absolute;
+      margin: 0;
+    }
+    .service-content {
+      background: gray;
+      text-align: center;
+      padding: 20px;
+      padding-top: 50px;
+      margin-top: 70px;
+      border-radius: 10px;
+    }
+  }

@@ -1,0 +1,19 @@
+@mixin btn{
+    background: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+@mixin link{
+    text: { 
+        transform: uppercase;
+        decoration:none;
+    }
+    font-weight: bolt;
+}
+@mixin standard-text-content{
+    font: {
+
+    }
+}

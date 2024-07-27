@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="index.css">
+  <head> </head>
+  <body>
+    <button id="writeMessage">Write message</button>
+    <button id="clearMessage">Clear message</button>
+    <h1 id="text"></h1>
+
+    <script>
+
+      let text = document.getElementById("text");
+      
+      function writeMessage() {
+        text.textContent = "Here is a message";
+        document.getElementById("text").style.color = "red";
+      }
+
+      let writeMessageButton = document.getElementById("writeMessage");
+      writeMessageButton.addEventListener("click", writeMessage);
+
+      function clearMessage(){
+        text.textContent="?????????"     
+      };
+
+      let clearMessageButton = document.getElementById("clearMessage");
+      clearMessageButton.addEventListener("click", clearMessage);
+
+	 
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+
+Ex4: 
+- create your own exercise relate with:
+	- v-if
+	- v-else
+	- v-for
+	- method
+	- computed
+
+Ex5:
+- create your own exercise relate with:
+	- v-model
+	- computed
+	- at lest 5 inputs
+
+Ex6:
+- I have one input date of birth
+- I have input age but no need to input
+- compute age when you choose date of birth
+- status: Chil or Adult
+- color: red or blue
+
+Ex7:
+-create view About Page.
+-Have component to say welcome
+-list component of staff.
+-list component of company sponsor
+-list component of top student
+-using props

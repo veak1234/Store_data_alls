@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(149, 102, 102);
+    background: rgb(235, 230, 220);
+}
+
+.form-body {
+    background: rgba(255, 255, 255, 0.882);
+    padding: 10px;
+}
+
+label {
+    color: rgba(4, 128, 93, 0.786);
+    font-size: 15px
+}
+
+.user-name,
+.user-passwords,
+.user-more-infos,
+.user-email,
+.user-bio {
+    margin: 10px;
+}
+
+.user-name,
+.user-passwords,
+.user-more-infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-email,
+.user-bio,
+.user-age {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-firstname,
+.user-lastname,
+.user-password,
+.user-confirm-password,
+.user-gender,
+.user-hobby,
+.user-financial,
+.user-income,
+.user-profile,
+.user-age {
+    width: 49%;
+}
+
+.user-firstname input,
+.user-lastname input,
+.user-password input,
+.user-confirm-password input,
+.user-email input,
+.user-age input,
+.user-bio textarea {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    border-top: 1px solid gray;
+    background: rgb(221, 218, 213);
+}
+
+.form-footer button {
+    background: rgb(37, 184, 184);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

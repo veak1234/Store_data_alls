@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.table-container{
+    width: 80%;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    /* border-bottom:1px solid; */
+    border:1px solid;
+    padding: 10px;
+}
+thead{
+    background: gold;
+}
+tbody tr:hover{
+    background: gray;
+    color: rgb(113, 192, 175);
+}
+tbody td:nth-child(1){
+    background: rgb(83, 105, 128);
+}
+tbody td:nth-child(4){
+    background: rgb(83, 105, 128);
+}

@@ -1,0 +1,69 @@
+
+export class Shape{
+    constructor(protected leftX: number, protected bottomY:number){}
+    getWidth():number{
+        return this.leftX - this.leftX;
+    }
+    getHeight():number{
+        return this.bottomY - this.bottomY;
+    }
+    getArea():number{
+        return this.getWidth() * this.getHeight();
+    }
+}
+
+//
+// class Square extends Shape{
+//     private size:number;
+//     constructor(leftX:number, bottomY:number, size:number){
+//         super(leftX, bottomY);
+//         this.size = size;
+//     }
+//     getWidth():number{
+//         return this.size;
+//     }
+//     getHeight():number{
+//         return this.size;
+//     }
+//     getArea():number{
+//         return this.size * this.size;
+//     }
+// }
+
+// class Rectangle extends Shape{
+//     private right:number;
+//     private topY:number;
+
+//     constructor(leftX:number, bottomY:number, right:number, topY:number){
+//         super(leftX, bottomY);
+//         this.right = right;
+//         this.topY = topY;
+//     }
+
+//     getWidth():number{
+//         return this.right - this.leftX;
+//     }
+//     getHeight():number{
+//         return this.topY - this.bottomY;
+//     }
+//     getArea():number{
+//         return this.getWidth() * this.getHeight();
+//     }
+// }
+
+// class Circle extends Shape{
+//     private radius:number;
+//     constructor(leftX:number, bottomY:number, radius:number){
+//         super(leftX, bottomY);
+//         this.radius = radius;
+//     }
+//     getWidth():number{
+//         return this.radius * 2;
+//     }
+//     getHeight():number{
+//         return this.radius * 2;
+//     }
+//     getArea():number{
+//         return Math.PI * this.radius * this.radius;
+//     }
+// }

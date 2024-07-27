@@ -1,0 +1,11 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.0.1
+i) Resolved few issues.
+
+Version 1.0.2
+i) Resolved few CSS issues.
+
+Version 1.0.3
+i) Resolved mobile navigation issue.

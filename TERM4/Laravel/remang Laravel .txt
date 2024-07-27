@@ -1,0 +1,28 @@
+
+Back-end
+1. what is OOP?
+2. what is Vue.js?
+3. what is Laravel?
+4. what is try and catch?
+5. what is async await?
+6. Laravel pattern?
+	- what is M?
+	- what is V?
+	- what is C?
+7. When you build api which pattern you use?
+8. What is REST API? Can you show me one api?
+9. What is Axios?
+10. What is PHP?
+11. what is difference PHP and Laravel?
+12. what is node.js?
+13. Why we need to use DB? How many db can you know?
+14. what is Query Builder?
+15. what is Eloquent?
+16. what is rouete?
+
+
+Fromd-end
+1. What are the main HTML element?
+2. What is re
+
+3. oneSigna ///

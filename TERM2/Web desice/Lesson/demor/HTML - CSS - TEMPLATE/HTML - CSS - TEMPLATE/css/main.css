@@ -1,0 +1,315 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* text centered  */
+.nav-left,
+.logo,
+.nav-right ul,
+aside,
+.main-content,
+header,
+.contact-us-form,
+.footer-left,
+.footer-center,
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* stardard format text */
+nav ul li a,
+aside,
+.main-content,
+header h1,
+.about-us-content h1 {
+    text-transform: uppercase;
+    font-style: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+
+nav {
+    height: 10vh;
+    background: black;
+    border-bottom: 2px solid orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    width: 10%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    border-radius: 50px;
+
+}
+
+.nav-right {
+    width: 40%;
+}
+
+.nav-right ul {
+    height: 10vh;
+    justify-content: space-evenly;
+}
+
+.nav-right ul li {
+    list-style: none;
+}
+
+.nav-right ul li a {
+    background: orange;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+/* home page  */
+.main-container {
+    height: 75vh;
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    background: black;
+    border: 1px solid white;
+}
+
+.main-content {
+    flex: 3;
+    background: black;
+    border: 1px solid white;
+}
+
+/* end home page  */
+
+/* about us page  */
+
+header {
+    height: 20vh;
+    padding: 10px;
+    flex-direction: column;
+}
+
+header,
+.about-us-content {
+    margin: 20px 0px;
+}
+
+header h1 {
+    color: white;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+}
+
+.partners>img {
+    width: 75px;
+    margin: 10px 50px;
+}
+
+.about-us-container {
+    background: linear-gradient(to bottom,
+            white 0%,
+            white 50%,
+            teal 50%,
+            teal 100%);
+    padding: 0px 100px;
+    padding-bottom: 25px;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+header h1,
+.about-us-content h1 {
+    color: black;
+    margin: 10px;
+}
+
+.about-us-content p {
+    text-align: justify;
+}
+
+.group-services {
+    display: flex;
+    margin: 20px 150px;
+    justify-content: space-evenly;
+}
+
+.card {
+    background: white;
+    width: 30%;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.card .img {
+    width: 100%;
+    background: orange;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card .card-content {
+    padding: 10px;
+}
+
+.card .card-content h4 {
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+/* end about us page  */
+/* contact us code */
+.contact-us-container {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/bg2.jpg);
+    display: flex;
+}
+
+.contact-us-content {
+    width: 50%;
+    height: 90vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.4274509804);
+}
+
+.content {
+    width: 75%;
+    padding: 40px;
+    margin-top: 75px;
+}
+
+.content h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.contact-us-form {
+    width: 50%;
+    height: 90vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.4274509804);
+}
+
+.contact-us-form form {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 50%;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.contact-us-container .contact-us-form form h2 {
+    color: teal;
+}
+
+.username,
+.passwords,
+.email,
+.gender,
+.date,
+.subject,
+.file,
+.fruit,
+form button {
+    margin: 10px 0px;
+}
+
+.contact-us-form form h2 {
+    text-align: center;
+}
+
+.username,
+.passwords {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username input,
+.passwords input {
+    width: 48%;
+    padding: 3px 0px;
+}
+
+.email input {
+    width: 99%;
+    padding: 3px 0px;
+}
+
+.gender,
+.subject {
+    display: flex;
+}
+
+.genders input,
+.subjects input {
+    font-size: 2px;
+}
+
+.contact-us-form form .fruit {
+    padding: 3px 0px;
+}
+
+.contact-us-form form label {
+    margin-right: 10px;
+}
+
+.contact-us-form form button {
+    background: teal;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* end contact us  */
+
+/* footer code  */
+
+footer {
+    height: 15vh;
+    background: black;
+    border-top: 2px solid teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>div {
+    flex-direction: column;
+}
+
+footer>div a {
+    text-decoration: none;
+    color: white
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="demo">Mouse over me</h1>
+
+    <script>
+      function mouseOver() {
+        // TODO change the text color of demo to RED
+        let text = document.getElementById("demo");
+        text.style.color="red";
+      }
+
+      function mouseOut() {
+        // TODO change the text color of demo to black
+        let text = document.getElementById("demo");
+        text.style.color="black";
+      }
+
+      let demoText = document.getElementById("demo");
+      
+      // TODO Listen to mouse over and mouse out on the <h1> demo
+      demoText = addEventListener("mouseover",mouseOver);
+      
+      demoText = addEventListener("mouseout",mouseOut);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+@media(max-width:900px){
+    .myfood{
+        width: 100%;
+    }
+    .header-up p{
+        font-size: 1.8rem;
+    }
+    .header{
+        height: 400px;
+        padding: 0px 50px;
+    }
+    .header-down{
+        width: 250px;
+    }
+    button{
+        width: 50%;
+    }
+    .cart1{
+        width: 70%;
+        height: 40vh;
+    }
+    .box-irght1 h1{
+        font-size: 1.5rem;
+    }
+    .box1,
+    .box2{
+        justify-content: space-between;
+        padding: 10px 10px; 
+        gap: 20px;
+    }
+    .box-irght{
+        padding-top: 45px;
+        width: 300vh;
+    }
+    .h{
+        font-size: 1rem;
+        margin: 20px;
+    }
+    .hatder{
+        width: 85%;
+    }
+    .countaider-right{
+        font-size: 1.5rem;
+    }
+    .On-life2{
+        padding-top: 70px;
+        width: 200px;
+    }
+    /* .navbar{
+        width: 350px;
+    } */
+
+    .navbat-life{
+        width: 57%;
+        padding-top: 0px;
+    }
+    .dou-right img{
+        width: 40vh;
+        height: 40vh;
+        margin: -20px;
+        padding-top: 20px;
+    }
+    .dou-right{
+        background: whitesmoke;
+    }
+    .k{
+        width: 100%;
+        padding: 30px;
+    }
+    .man3 button{
+        width: 30%;
+    }
+    .man1,
+    .man2,
+    .man3{
+        padding-top: 20px;
+    }
+    .manyou-life{
+        padding: 80px  10px;
+    }
+    .nav-life{
+        gap: 20px;
+    }
+    .manyou{
+        display: none;
+    }
+    .D img,
+    .G img,
+    .L img,
+    .M img,
+    .N img{
+        width: 100px;
+    }
+}
+
+@media(max-width:700px){
+    .myfood{
+        width: 100%;
+    }
+    .header-up p{
+        font-size: 1.5rem;
+    }
+    .header{
+        height: 400px;
+        padding: 0px 20px;
+    }
+    .header-down{
+        width: 150px;
+    }
+    button{
+        width: 50%;
+    }
+    .cart1{
+        width: 70%;
+        height: 40vh;
+    }
+    .box-irght1 h1{
+        font-size: 1.5rem;
+    }
+    .box1,
+    .box2{
+        justify-content: space-between;
+        padding: 10px 10px; 
+        gap: 20px;
+    }
+    .box-irght{
+        padding-top: 45px;
+        width: 300vh;
+    }
+    .h{
+        font-size: 1rem;
+        margin: 20px;
+    }
+    .hatder{
+        width: 85%;
+    }
+    .countaider-right{
+        font-size: 1.5rem;
+    }
+    .On-life2{
+        padding-top: 70px;
+        width: 200px;
+    }
+    .navbar{
+        width: 350px;
+    }
+    .navbat-life{
+        width: 57%;
+        padding-top: 0px;
+    }
+    .dou-right img{
+        width: 40vh;
+        height: 40vh;
+        margin: -20px;
+        padding-top: 20px;
+    }
+    .dou-right{
+        background: whitesmoke;
+    }
+    .k{
+        width: 100%;
+        padding: 30px;
+    }
+    .man3 button{
+        width: 30%;
+    }
+    .man1,
+    .man2,
+    .man3{
+        padding-top: 20px;
+    }
+}
+@media(max-width:800px){
+    .myfood{
+        width: 100%;
+    }
+    .D img,
+    .G img,
+    .L img,
+    .M img,
+    .N img{
+        width: 80px;
+    }
+}

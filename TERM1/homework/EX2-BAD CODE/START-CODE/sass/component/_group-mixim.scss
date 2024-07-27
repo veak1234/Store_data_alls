@@ -1,0 +1,23 @@
+@mixin contai{
+    width: 100%;
+    border: 1px solid $text;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@mixin con{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+@mixin rible{
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    background: $input;
+    cursor: pointer;
+    color: $button;
+}

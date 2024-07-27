@@ -1,0 +1,8 @@
+
+code editor in using VScode install:
+
+- GitLens — Git supercharged
+- Live Server
+- Thunder Client
+- Tabnine: AI Chat & Autocomplete for JavaScript, Python
+- ESLint

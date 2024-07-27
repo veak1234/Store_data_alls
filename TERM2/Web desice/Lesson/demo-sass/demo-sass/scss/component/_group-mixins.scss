@@ -1,0 +1,14 @@
+@import "variables";
+
+@mixin text-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin formated-text {
+    text-transform: uppercase;
+    font-style: 25px;
+    font-weight: bold;
+    color: $tertiary-color;
+}

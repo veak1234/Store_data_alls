@@ -1,0 +1,22 @@
+/*
+1st step : display all normal and complete the handout
+2nd step : 
+    - display the menu (list) inline
+    - display paragraph inline
+    - display span in block
+    and look at the result and understand the difference
+*/
+
+
+p {
+    display:inline ;
+}
+
+span {
+    display:block ;
+}
+
+li {
+    display:inline ;
+}
+

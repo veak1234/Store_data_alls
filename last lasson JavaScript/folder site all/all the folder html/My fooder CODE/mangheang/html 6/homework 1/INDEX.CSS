@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+    text-align: left; 
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid;
+    padding: 10px;
+    border: 1px solid black;
+}
+.content{
+    padding: 10px;
+    background: rgb(82, 204, 223);
+    text-align: center;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.text{
+    background: goldenrod;
+    color: white;
+}

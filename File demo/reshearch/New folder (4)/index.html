@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Days Count Calculator</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+  #result {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+<input type="datetime-local" value="+010000-01-01T05:00" />
+
+<script>
+function setValue(element, date) {
+  const isoString = date.toISOString();
+  element.value = isoString.substring(0, isoString.indexOf("T") + 6);
+}
+setValue()
+</script>
+
+</body>
+</html>

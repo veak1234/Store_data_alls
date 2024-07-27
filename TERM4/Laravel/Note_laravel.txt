@@ -1,0 +1,28 @@
+
+
+What is Composer?
+<=> Composer is a tool for dependency management in PHP.
+
+What is Laraval?
+<=> Laraval is a back-end, PHP-based, open-source framen=work for building a wide range of custom web applications.
+-It's a server-side framework that manages data.
+-It is based on the Model-View-Controller (MVC) design.
+
+Install Laravel
+sep1: composer create-project laravel/laravel veak.
+sep2: 
+
+
+What is Routing?
+<=> Routing in Laravel allows you to route all your application request to its appropriate controller.
+<=> Routing is for request and log to page.
+
+===================================================
+<====05/09/2024====>
+<==cleate laval niew for laravel==>
+ - composer create-project laravel/laravel:10.* blog-app
+
+
+============================
+<======= 05/10/2024========>
+Route::prefix()

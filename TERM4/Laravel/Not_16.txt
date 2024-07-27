@@ -1,0 +1,16 @@
+
+
+# SELECT UERY BASIC
+DB::selectOne('select * from name')
+DB::select('select * from name')
+
+#SELECT QUERY BASIC WITH WHERE CONDITION
+DB::select('select * from name WHERE id=1')
+DB::select('select * from name WHERE id=?', [1])
+DB::select('select * from name WHERE id=:id', ['id' =>2])
+
+#CRUD BASIC
+DB::select('select * from name');
+DB::select('select * from name (col1,col2,...)VALUES(?,?,...)', [value1, value2,....]);
+DB::select('select * from name SET col1=?, col2=?,...WHERE id=?', [value1, value2,...]);
+DB::select('select * from name WHERE id=?', [value]);

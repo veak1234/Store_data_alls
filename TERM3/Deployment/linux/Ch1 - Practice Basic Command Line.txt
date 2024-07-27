@@ -1,0 +1,11 @@
+Practice Linux Command Lines 
+============================
+
+1. Use a command line to create a directory name "Quiz".
+2. Create 5 files name quiz1.txt - quiz5.txt inside directory "Quiz". 
+2. Display calendar of 2023 and 2024.
+3. Create another directory name "Homework". 
+4. Create a text file name myhomework.txt under directory "Homework" with sentence 
+   "This is system administration".
+5. Use command to open file myhomework.txt.
+6. Delete directory "Homework" and everything inside it. 

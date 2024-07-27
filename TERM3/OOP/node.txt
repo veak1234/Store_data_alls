@@ -1,0 +1,10 @@
+
+=> OOP lasson <=
+- Typed languages
+- object / Class
+- Aggregation
+- Encapsulation
+- Polymorphism
+- Inheritance
+- Objects references
+

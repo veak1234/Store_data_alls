@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>1</h1>
+    <h1>2</h1>
+    <h1>1</h1> -->
+    <!-- <button type="button" onclick="show()">How to click</button> -->
+    <h1>hello javascript</h1>
+    <button type="button" onclick="hide()">How to hide</button>
+    <button type="button" onclick="showButton()">How to show</button>
+</body>
+<script>
+    // let change = document.querySelector("h1");
+    // change.textContent="hello";
+    // change.textContent="Hello js";
+    // change.style.textDecoration="underline";
+    // change.style.textDecorationColor="red";
+    // console.log(change)
+    ///create texconten////////////////////////////////
+    let create =document.createElement("create");
+    create.textContent = "THE BEST!";
+    document.body.appendChild(create)
+    console.log(create)
+    //
+    // let createElement= document.createAttribute("createElement");
+    // createElement=textContent="create element"
+    // console.log(createElement)
+    //
+    let arr=["apple",'coconut','banana','mango']
+    for (let i=0; i<arr.length;i++){//i++ =i+=1
+        let li = document.createElement('h1');
+        li.textContent=arr[i];
+        document.body.appendChild(li);
+        // console.log(li)
+    }  
+    // function
+    // function name(){
+    //     return name
+    // }
+    // console.log(name())
+
+    //
+    // function sum(a, b){
+        // return a+ b
+    // }
+    // console.log(sum(20,5))
+
+    // call buttonnnnnn
+    // function show(){
+        // prompt("hello");
+    // }
+    // hide h1
+    // function hide(){
+    //     let h1 = document.querySelector("h1");
+    //     h1.style.display="none"    
+    // }
+    // function showButton(){
+    //     let h1 = document.querySelector("h1");
+    //     h1.style.display="block"    
+    // }
+    // arow funciton 
+    // let hide =() =>{
+        
+    // }
+    // let myText = "HELLO world"
+    // console.log(myText.toUpperCase())
+    // let sumString="ronan"
+    // console.log(sumString[:-1])
+    // let i=3
+    // for (i=0 ; i>3 ;i++){
+    //     console.log("hello")
+    // }
+
+    // let car=["car","car"]
+    // for (index in car){
+    //     // console.log(index)
+    //     console.log(car[index])
+    // }
+    // let carName;
+    // console.log(carName)
+</script>
+</html>

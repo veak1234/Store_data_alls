@@ -1,0 +1,40 @@
+@import "./component/main";
+
+.container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    gap: 10px;
+}  
+.card {
+    border: 1px solid $text;
+    padding: 10px;
+    width: 100%;
+}
+.card-header {
+    text-transform: uppercase;
+    border-bottom: 1px solid $text;
+}
+.active {
+    background: $boday;
+}
+
+input {
+    @include contai;
+}
+textarea {
+    @include contai;
+}
+button {
+    @include rible;
+}
+.map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}

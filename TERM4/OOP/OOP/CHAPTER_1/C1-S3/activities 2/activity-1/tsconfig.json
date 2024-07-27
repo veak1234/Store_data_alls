@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "outDir": "dist",   // It will convert to folder "dist" when we run tsc.
+  },
+  "include": ["src/**/*", "B.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

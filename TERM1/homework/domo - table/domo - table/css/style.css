@@ -1,0 +1,18 @@
+*{
+    padding: 0;margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;align-items: center;
+    
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+tr th, tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visbile</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div class="btn">
+        <button id="add-id">Add</button>
+        <button id="close-id">Close</button>
+      </div>
+      <form name="bookForm" class="form-container">
+        <div class="form-group">
+          <input name="title" type="text" placeholder="Book title" />
+          <input name="author" type="text" placeholder="Author name" />
+        </div>
+        <div class="form-single">
+          <p>Purchase date:</p>
+          <input name="purchaseDate" type="date" />
+        </div>
+        <div class="form-single">
+          <textarea name="description" placeholder="Description"></textarea>
+        </div>
+        <div>
+          <button id="btn-create">CREATE/UPDATE</button>
+        </div>
+      </form>
+
+      <div id="cardContainer"></div>
+    </div>
+  </body>
+</html>

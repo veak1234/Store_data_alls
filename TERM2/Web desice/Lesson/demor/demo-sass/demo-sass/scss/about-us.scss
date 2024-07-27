@@ -1,0 +1,66 @@
+@import "main";
+@import "component/card";
+
+header {
+    @include text-centered;
+    height: 20vh;
+    padding: 10px;
+    flex-direction: column;
+}
+
+header,
+.about-us-content {
+    margin: 20px 0px;
+}
+
+header h1 {
+    @include formated-text;
+    color: $tertiary-color;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+}
+
+.partners>img {
+    width: 75px;
+    margin: 10px 50px;
+}
+
+.about-us-container {
+    background: linear-gradient(to bottom,
+            $tertiary-color 0%,
+            $tertiary-color 50%,
+            $secondary-color 50%,
+            $secondary-color 100%);
+    padding: 0px 100px;
+    padding-bottom: 25px;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+header h1,
+.about-us-content h1 {
+    color: $main-color;
+    margin: 10px;
+}
+
+.about-us-content h1 {
+    @include formated-text;
+}
+
+.about-us-content p {
+    text-align: justify;
+}
+
+.group-services {
+    display: flex;
+    margin: 20px 150px;
+    justify-content: space-evenly;
+}
+.bg-image{
+    width: 100%;
+}

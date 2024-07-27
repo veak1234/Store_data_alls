@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+
+}
+
+.container-nav{
+    /* background: pink; */
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(161, 155, 155);
+}
+.nav-left{
+    /* background: green; */
+    padding: 9px;
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.icon-custom{
+    background: blue;
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.facebook-search{
+    background: rgb(202, 202, 221);
+    border-radius: 20px;
+    color: white;
+    width: 280px;
+    height: 35px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-center{
+    /* background: greenyellow; */
+    flex: 1;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-right{
+    /* background: gold; */
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.nav-right .icon-color{
+    background: rgb(61, 60, 60);
+    border-radius: 500%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(189, 182, 182);
+}
+.container{
+    padding: 7px;
+    display: flex;
+    height: 90%;
+    gap: 10px;
+    background: rgb(230, 230, 230);
+    justify-content: center;
+}
+.div-left{
+    width: 30%;
+}
+.header{
+   
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+.hot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+.hot p{
+    color: blue;
+}
+.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.m .HAK{
+    color: black;
+}
+.cold{
+    display: flex;
+    gap: 10px;
+    margin: 20px 10px 10px 10px;
+    font-size: 18px;
+}
+.content-left{
+    flex: 2;
+    padding: 10px;
+}
+.on{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.on i{
+    font-size: 17px;
+}
+.off{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 12px;
+}
+.before{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.under{
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+}
+.div-center{
+    width: 45%;
+}
+.header-top{
+    background: white;
+    display: flex;
+    height: 29%;
+    gap: 6px;
+}
+.box{
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex: 1;
+    padding: 5px;
+}
+.meun-center{
+    display: flex;
+    height: 20%;
+    background: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.life{
+    display: flex;
+    padding: 6px;
+    gap: 5px;
+    align-items: center;
+}
+.life p{
+    border-radius: 20px;
+    width: 100%;
+    padding: 6px;
+    background: rgb(239, 239, 239);
+}
+.hard{
+    display: flex;
+    justify-content: space-around;
+}
+.frist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.footer{
+    display: flex;
+    height: 45%;
+    border-radius: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+}
+.why{
+    flex: 0.3;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.A{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reason p{
+    padding: 8px;
+}
+.success{
+    flex-grow: 1;
+    background-image: url(pic.jpg);
+}
+.div-right{
+    background: blue;
+    width: 30%;
+}
+
+

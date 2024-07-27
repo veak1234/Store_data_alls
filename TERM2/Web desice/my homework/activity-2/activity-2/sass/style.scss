@@ -1,0 +1,38 @@
+
+body {
+    color: red;    
+    font: {
+        family: sans-serif;
+        size: 100px;
+        weight: 100;
+        style: italic;
+    }
+    margin: {
+        left: 10px;
+        right: 20px;
+    }
+    padding: {
+        left: 10px;
+        right: 30px;
+        bottom: 220px;
+    }
+}
+nav {
+    margin: 0;
+    background: #000;
+  }
+    ul {
+        margin: 0;
+        padding: 15px;
+        display: flex;
+    li {
+        padding: 14px;
+        a {
+            text-decoration: none;
+        }
+    }
+    .nav-container {
+        display: flex;
+        padding: 7px;
+    }
+}

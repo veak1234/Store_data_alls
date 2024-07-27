@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(192, 173, 173);
+    height: 40px;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+.btn {
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    @extend .btn;
+    background: #0091ff;
+    
+}
+.btn-secondary {
+    @extend .btn;
+    background: #a8a9aa;
+}
+.btn-warning {
+    @extend .btn;
+    background: #ffbb00;
+}
+.btn-success {
+    @extend .btn;
+    background: #0fc975;
+}
+.btn-dark {
+    @extend .btn;
+    background: #030303;
+}
+.btn-danger {
+    @extend .btn;
+    background: #e30a0a;
+}

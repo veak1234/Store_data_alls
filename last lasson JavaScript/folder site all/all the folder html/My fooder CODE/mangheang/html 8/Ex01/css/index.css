@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: black;
+}
+.fooder{
+    background: white;
+    width: 400px;
+    padding: 20px;
+    height: 400px;
+    margin-top: 140px;
+    border-radius: 5px;
+}
+.home{
+    display: flex;
+    text-decoration: underline;
+}
+.home,
+.container,
+.cont,
+.conter,
+.ho,
+.boox{
+    margin-bottom: 15px;
+}
+.ho{
+    text-decoration: underline;
+}
+.h,
+.g,
+.k{
+    width: 95%;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background: goldenrod;
+    border-radius: 20px; 
+    border: none;
+}

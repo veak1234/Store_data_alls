@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.413);
+    width: 20%;
+    /* margin: auto;
+    margin-top: 150px; */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+label {
+    color: white;
+}
+
+.username,
+.password,
+.address,
+.user-role,
+.user-services,
+.web-server {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.username label,
+.password label,
+.address label,
+.user-role label,
+.user-services label,
+.user-sercices label,
+.web-server label {
+    width: 30%;
+}
+
+.username input,
+.password input,
+.address input {
+    width: 70%;
+    background: rgba(234, 234, 234, 0.394);
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+.user-role,
+.user-services,
+.web-server {
+    display: flex;
+    align-items: center;
+}
+
+.list-role,
+.list-service,
+.list-server{
+    width: 70%;
+}
+.list-server select{
+    width: 100%;
+    padding: 5px;
+}
+
+.service,
+.role {
+    padding: 5px 0px;
+}
+
+.service label,
+.role label {
+    margin-left: 10px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.list-button {
+    display: flex;
+    justify-content: center;
+}
+
+.list-button input {
+    margin: 5px;
+    padding: 2px 20px;
+}

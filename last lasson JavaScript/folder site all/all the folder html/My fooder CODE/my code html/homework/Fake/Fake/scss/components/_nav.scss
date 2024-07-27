@@ -1,0 +1,36 @@
+@import "variable";
+@import "group-mixins";
+
+nav {
+    @include df-aic-jcc;
+    height: 10vh;
+    background: $primary-color;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+
+        a {
+            @include border;
+            cursor: pointer;
+            background: $tertiary-color;
+            text-decoration: none;
+            color: $secondary-color;
+
+            li {
+                list-style: none;
+            }
+        }
+
+        a:hover {
+            background: $hover-colore;
+            color: $quinary-color;
+        }
+    }
+
+    div img {
+        width: 70px;
+    }
+}

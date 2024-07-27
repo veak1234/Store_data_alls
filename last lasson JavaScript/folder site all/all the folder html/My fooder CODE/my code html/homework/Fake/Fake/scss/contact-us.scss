@@ -1,0 +1,99 @@
+@import "components/main";
+
+.contact-us-container {
+  width: 100%;
+  height: 90vh;
+  background-image: url(/images/bg2.jpg);
+  display: flex;
+
+  .contact-us-content {
+    width: 50%;
+    height: 90vh;
+    color: $quinary-color;
+    background: $blur-color;
+
+    .content {
+      width: 60%;
+      margin: 120px 80px;
+
+      h1 {
+        font-size: 70px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .contact-us-form {
+    @include df-aic-jcc;
+    width: 50%;
+    height: 90vh;
+    color: $quinary-color;
+    background: $blur-color;
+
+    form {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      width: 50%;
+      background: $quinary-color;
+      color: $secondary-color;
+      @include df-fdc;
+      padding: 10px 20px;
+      border-radius: 10px;
+
+      h2 {
+        color: $primary-color;
+        text-align: center;
+      }
+
+      .gg {
+        margin: 10px 0px;
+      }
+
+      .username,
+      .passwords {
+        @extend .gg;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .username input,
+      .passwords input {
+        width: 48%;
+        padding: 3px 0px;
+      }
+
+      .email input {
+        width: 99%;
+        padding: 3px 0px;
+      }
+
+      .gender,
+      .subject {
+        @extend .gg;
+        display: flex;
+      }
+
+      .genders input,
+      .subjects input {
+        font-size: 2px;
+      }
+
+      .fruit {
+        @extend .gg;
+        padding: 3px 0px;
+      }
+
+      label {
+        margin-right: 10px;
+      }
+
+      button {
+        @extend .gg;
+        background: $primary-color;
+        color: $quinary-color;
+        @include border1;
+      }
+
+    }
+  }
+}
